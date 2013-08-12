@@ -24,6 +24,8 @@
 		FA18330517B98FA900334D10 /* CustomCollectionCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA18330317B98FA900334D10 /* CustomCollectionCellView.xib */; };
 		FA18330917B9999600334D10 /* AddComicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA18330717B9999600334D10 /* AddComicViewController.m */; };
 		FA18330A17B9999600334D10 /* AddComicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA18330817B9999600334D10 /* AddComicViewController.xib */; };
+		FA808FCC17B9A99B0068504D /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA808FCA17B9A99B0068504D /* DetailsViewController.m */; };
+		FA808FCD17B9A99B0068504D /* DetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA808FCB17B9A99B0068504D /* DetailsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +54,9 @@
 		FA18330617B9999600334D10 /* AddComicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddComicViewController.h; sourceTree = "<group>"; };
 		FA18330717B9999600334D10 /* AddComicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddComicViewController.m; sourceTree = "<group>"; };
 		FA18330817B9999600334D10 /* AddComicViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddComicViewController.xib; sourceTree = "<group>"; };
+		FA808FC917B9A99B0068504D /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		FA808FCA17B9A99B0068504D /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
+		FA808FCB17B9A99B0068504D /* DetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +117,9 @@
 				FA18330117B98FA900334D10 /* CustomCollectionCellView.h */,
 				FA18330217B98FA900334D10 /* CustomCollectionCellView.m */,
 				FA18330317B98FA900334D10 /* CustomCollectionCellView.xib */,
+				FA808FC917B9A99B0068504D /* DetailsViewController.h */,
+				FA808FCA17B9A99B0068504D /* DetailsViewController.m */,
+				FA808FCB17B9A99B0068504D /* DetailsViewController.xib */,
 				FA1832D917B982F800334D10 /* Supporting Files */,
 			);
 			path = LongboxApp;
@@ -190,6 +198,7 @@
 				FA1832F917B98BC900334D10 /* CollectionViewController.xib in Resources */,
 				FA18330517B98FA900334D10 /* CustomCollectionCellView.xib in Resources */,
 				FA18330A17B9999600334D10 /* AddComicViewController.xib in Resources */,
+				FA808FCD17B9A99B0068504D /* DetailsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +215,7 @@
 				FA1832F817B98BC900334D10 /* CollectionViewController.m in Sources */,
 				FA18330417B98FA900334D10 /* CustomCollectionCellView.m in Sources */,
 				FA18330917B9999600334D10 /* AddComicViewController.m in Sources */,
+				FA808FCC17B9A99B0068504D /* DetailsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +338,7 @@
 				FA1832F417B982F900334D10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

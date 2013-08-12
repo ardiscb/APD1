@@ -1,5 +1,5 @@
 //
-//  AddComicViewController.h
+//  DetailsViewController.h
 //  LongboxApp
 //
 //  Created by Courtney Ardis on 8/12/13.
@@ -8,11 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AddComicViewController : UIViewController
-{
-    IBOutlet UIButton *saveBtn;
-    
-}
+@interface DetailsViewController : UIViewController
 
--(IBAction)onClick:(id)sender;
 @end

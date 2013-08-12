@@ -8,6 +8,7 @@
 
 #import "CollectionViewController.h"
 #import "CustomCollectionCellView.h"
+#import "DetailsViewController.h"
 
 @interface CollectionViewController ()
 
@@ -62,6 +63,14 @@
         NSLog(@"Success!!");
     }
     return nil;
+}
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    DetailsViewController *detailsView = [[DetailsViewController alloc] initWithNibName:@"DetailsViewController" bundle:nil];
+    if(detailsView != nil)
+    {
+        [self presentViewController:detailsView animated:true completion:nil];
+    }
 }
 
 @end
