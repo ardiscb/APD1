@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    IBOutlet UIButton *addComicBtn;
+    IBOutlet UIButton *collectionBtn;
+}
 
+-(IBAction)onClick:(id)sender;
 @end

@@ -18,6 +18,12 @@
 		FA1832E917B982F900334D10 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA1832E817B982F900334D10 /* Default-568h@2x.png */; };
 		FA1832EC17B982F900334D10 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1832EB17B982F900334D10 /* ViewController.m */; };
 		FA1832EF17B982F900334D10 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA1832ED17B982F900334D10 /* ViewController.xib */; };
+		FA1832F817B98BC900334D10 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1832F617B98BC900334D10 /* CollectionViewController.m */; };
+		FA1832F917B98BC900334D10 /* CollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA1832F717B98BC900334D10 /* CollectionViewController.xib */; };
+		FA18330417B98FA900334D10 /* CustomCollectionCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA18330217B98FA900334D10 /* CustomCollectionCellView.m */; };
+		FA18330517B98FA900334D10 /* CustomCollectionCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA18330317B98FA900334D10 /* CustomCollectionCellView.xib */; };
+		FA18330917B9999600334D10 /* AddComicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA18330717B9999600334D10 /* AddComicViewController.m */; };
+		FA18330A17B9999600334D10 /* AddComicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA18330817B9999600334D10 /* AddComicViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +43,15 @@
 		FA1832EA17B982F900334D10 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		FA1832EB17B982F900334D10 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FA1832EE17B982F900334D10 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		FA1832F517B98BC900334D10 /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		FA1832F617B98BC900334D10 /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		FA1832F717B98BC900334D10 /* CollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewController.xib; sourceTree = "<group>"; };
+		FA18330117B98FA900334D10 /* CustomCollectionCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCollectionCellView.h; sourceTree = "<group>"; };
+		FA18330217B98FA900334D10 /* CustomCollectionCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCollectionCellView.m; sourceTree = "<group>"; };
+		FA18330317B98FA900334D10 /* CustomCollectionCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCollectionCellView.xib; sourceTree = "<group>"; };
+		FA18330617B9999600334D10 /* AddComicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddComicViewController.h; sourceTree = "<group>"; };
+		FA18330717B9999600334D10 /* AddComicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddComicViewController.m; sourceTree = "<group>"; };
+		FA18330817B9999600334D10 /* AddComicViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddComicViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +103,15 @@
 				FA1832EA17B982F900334D10 /* ViewController.h */,
 				FA1832EB17B982F900334D10 /* ViewController.m */,
 				FA1832ED17B982F900334D10 /* ViewController.xib */,
+				FA18330617B9999600334D10 /* AddComicViewController.h */,
+				FA18330717B9999600334D10 /* AddComicViewController.m */,
+				FA18330817B9999600334D10 /* AddComicViewController.xib */,
+				FA1832F517B98BC900334D10 /* CollectionViewController.h */,
+				FA1832F617B98BC900334D10 /* CollectionViewController.m */,
+				FA1832F717B98BC900334D10 /* CollectionViewController.xib */,
+				FA18330117B98FA900334D10 /* CustomCollectionCellView.h */,
+				FA18330217B98FA900334D10 /* CustomCollectionCellView.m */,
+				FA18330317B98FA900334D10 /* CustomCollectionCellView.xib */,
 				FA1832D917B982F800334D10 /* Supporting Files */,
 			);
 			path = LongboxApp;
@@ -163,6 +187,9 @@
 				FA1832E717B982F900334D10 /* Default@2x.png in Resources */,
 				FA1832E917B982F900334D10 /* Default-568h@2x.png in Resources */,
 				FA1832EF17B982F900334D10 /* ViewController.xib in Resources */,
+				FA1832F917B98BC900334D10 /* CollectionViewController.xib in Resources */,
+				FA18330517B98FA900334D10 /* CustomCollectionCellView.xib in Resources */,
+				FA18330A17B9999600334D10 /* AddComicViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +203,9 @@
 				FA1832DF17B982F900334D10 /* main.m in Sources */,
 				FA1832E317B982F900334D10 /* AppDelegate.m in Sources */,
 				FA1832EC17B982F900334D10 /* ViewController.m in Sources */,
+				FA1832F817B98BC900334D10 /* CollectionViewController.m in Sources */,
+				FA18330417B98FA900334D10 /* CustomCollectionCellView.m in Sources */,
+				FA18330917B9999600334D10 /* AddComicViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
