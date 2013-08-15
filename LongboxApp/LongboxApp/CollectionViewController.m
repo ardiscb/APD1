@@ -9,6 +9,7 @@
 #import "CollectionViewController.h"
 #import "CustomCollectionCellView.h"
 #import "DetailsViewController.h"
+#import "ViewController.h"
 
 @interface CollectionViewController ()
 
@@ -27,6 +28,14 @@
 
 - (void)viewDidLoad
 {
+    comicCovers = [[NSArray alloc] initWithObjects:
+                   [UIImage imageNamed:@"comic1.jpg"],
+                   [UIImage imageNamed:@"comic2.jpg"],
+                   [UIImage imageNamed:@"comic3.jpg"],
+                   [UIImage imageNamed:@"comic4.jpg"],
+                   [UIImage imageNamed:@"comic5.jpg"],
+                   [UIImage imageNamed:@"comic6.jpg"], nil];
+    
     //Create nib for CustomCollectionCellView
     UINib *nib = [UINib nibWithNibName:@"CustomCollectionCellView" bundle:nil];
     if(nib != nil)
@@ -46,9 +55,18 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(IBAction)onClick:(id)sender
+{
+    ViewController *mainView = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
+    if(mainView != nil)
+    {
+        [self presentViewController:mainView animated:true completion:nil];
+    }
+}
+
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
-    return 5;
+    return [comicCovers count];
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
@@ -57,6 +75,10 @@
     CustomCollectionCellView *cell = [comicCollectionView dequeueReusableCellWithReuseIdentifier:@"CustomCell" forIndexPath:indexPath];
     if(cell != nil)
     {
+        UIImageView *cellImage = [comicCovers objectAtIndex:indexPath.row];
+        cell.collectionCellImage.image = cellImage;
+        //[comicCollectionView reloadData];
+        
         NSLog(@"row=%d", indexPath.row);
         return cell;
         

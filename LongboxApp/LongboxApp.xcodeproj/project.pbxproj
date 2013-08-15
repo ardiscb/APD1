@@ -26,6 +26,14 @@
 		FA18330A17B9999600334D10 /* AddComicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA18330817B9999600334D10 /* AddComicViewController.xib */; };
 		FA808FCC17B9A99B0068504D /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA808FCA17B9A99B0068504D /* DetailsViewController.m */; };
 		FA808FCD17B9A99B0068504D /* DetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA808FCB17B9A99B0068504D /* DetailsViewController.xib */; };
+		FA808FCF17BD71F30068504D /* startBkgd.png in Resources */ = {isa = PBXBuildFile; fileRef = FA808FCE17BD71F30068504D /* startBkgd.png */; };
+		FA808FD117BD74070068504D /* detailsBkgd.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA808FD017BD74070068504D /* detailsBkgd.jpg */; };
+		FA808FD817BD7D1D0068504D /* comic1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA808FD217BD7D1D0068504D /* comic1.jpg */; };
+		FA808FD917BD7D1D0068504D /* comic2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA808FD317BD7D1D0068504D /* comic2.jpg */; };
+		FA808FDA17BD7D1D0068504D /* comic3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA808FD417BD7D1D0068504D /* comic3.jpg */; };
+		FA808FDB17BD7D1D0068504D /* comic4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA808FD517BD7D1D0068504D /* comic4.jpg */; };
+		FA808FDC17BD7D1D0068504D /* comic5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA808FD617BD7D1D0068504D /* comic5.jpg */; };
+		FA808FDD17BD7D1D0068504D /* comic6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA808FD717BD7D1D0068504D /* comic6.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +65,14 @@
 		FA808FC917B9A99B0068504D /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
 		FA808FCA17B9A99B0068504D /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
 		FA808FCB17B9A99B0068504D /* DetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailsViewController.xib; sourceTree = "<group>"; };
+		FA808FCE17BD71F30068504D /* startBkgd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startBkgd.png; sourceTree = "<group>"; };
+		FA808FD017BD74070068504D /* detailsBkgd.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = detailsBkgd.jpg; sourceTree = "<group>"; };
+		FA808FD217BD7D1D0068504D /* comic1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = comic1.jpg; sourceTree = "<group>"; };
+		FA808FD317BD7D1D0068504D /* comic2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = comic2.jpg; sourceTree = "<group>"; };
+		FA808FD417BD7D1D0068504D /* comic3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = comic3.jpg; sourceTree = "<group>"; };
+		FA808FD517BD7D1D0068504D /* comic4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = comic4.jpg; sourceTree = "<group>"; };
+		FA808FD617BD7D1D0068504D /* comic5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = comic5.jpg; sourceTree = "<group>"; };
+		FA808FD717BD7D1D0068504D /* comic6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = comic6.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +119,14 @@
 		FA1832D817B982F800334D10 /* LongboxApp */ = {
 			isa = PBXGroup;
 			children = (
+				FA808FD017BD74070068504D /* detailsBkgd.jpg */,
+				FA808FD217BD7D1D0068504D /* comic1.jpg */,
+				FA808FD317BD7D1D0068504D /* comic2.jpg */,
+				FA808FD417BD7D1D0068504D /* comic3.jpg */,
+				FA808FD517BD7D1D0068504D /* comic4.jpg */,
+				FA808FD617BD7D1D0068504D /* comic5.jpg */,
+				FA808FD717BD7D1D0068504D /* comic6.jpg */,
+				FA808FCE17BD71F30068504D /* startBkgd.png */,
 				FA1832E117B982F900334D10 /* AppDelegate.h */,
 				FA1832E217B982F900334D10 /* AppDelegate.m */,
 				FA1832EA17B982F900334D10 /* ViewController.h */,
@@ -199,6 +223,14 @@
 				FA18330517B98FA900334D10 /* CustomCollectionCellView.xib in Resources */,
 				FA18330A17B9999600334D10 /* AddComicViewController.xib in Resources */,
 				FA808FCD17B9A99B0068504D /* DetailsViewController.xib in Resources */,
+				FA808FCF17BD71F30068504D /* startBkgd.png in Resources */,
+				FA808FD117BD74070068504D /* detailsBkgd.jpg in Resources */,
+				FA808FD817BD7D1D0068504D /* comic1.jpg in Resources */,
+				FA808FD917BD7D1D0068504D /* comic2.jpg in Resources */,
+				FA808FDA17BD7D1D0068504D /* comic3.jpg in Resources */,
+				FA808FDB17BD7D1D0068504D /* comic4.jpg in Resources */,
+				FA808FDC17BD7D1D0068504D /* comic5.jpg in Resources */,
+				FA808FDD17BD7D1D0068504D /* comic6.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

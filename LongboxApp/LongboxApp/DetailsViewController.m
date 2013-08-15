@@ -7,6 +7,7 @@
 //
 
 #import "DetailsViewController.h"
+#import "CollectionViewController.h"
 
 @interface DetailsViewController ()
 
@@ -33,6 +34,15 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(IBAction)onClick:(id)sender
+{
+    CollectionViewController *collectView = [[CollectionViewController alloc] initWithNibName:@"CollectionViewController" bundle:nil];
+    if(collectView != nil)
+    {
+        [self presentViewController:collectView animated:true completion:nil];
+    }
 }
 
 @end

@@ -11,5 +11,8 @@
 @interface CollectionViewController : UIViewController <UICollectionViewDataSource, UICollectionViewDelegate>
 {
     IBOutlet UICollectionView *comicCollectionView;
+    NSArray *comicCovers;
 }
+
+-(IBAction)onClick:(id)sender;
 @end

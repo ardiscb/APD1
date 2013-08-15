@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface DetailsViewController : UIViewController
+{
+    
+}
 
+-(IBAction)onClick:(id)sender;
 @end

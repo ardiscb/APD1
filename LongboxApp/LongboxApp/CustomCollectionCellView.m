@@ -9,6 +9,7 @@
 #import "CustomCollectionCellView.h"
 
 @implementation CustomCollectionCellView
+@synthesize collectionCellImage;
 - (id)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
