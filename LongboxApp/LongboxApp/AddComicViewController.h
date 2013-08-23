@@ -8,11 +8,28 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AddComicViewController : UIViewController
+@protocol AddViewDelegate <NSObject>
+@required
+-(void)DidSave:(NSString*)comicTitle number:(NSString*)issueNumber pub:(NSString*)publisher year:(NSString*)releaseYear;
+@end
+
+@interface AddComicViewController : UIViewController <UITextFieldDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate, UIScrollViewDelegate>
 {
-    IBOutlet UIButton *saveBtn;
+    IBOutlet UIView *addView;
+    IBOutlet UIScrollView *scrollView;
+    IBOutlet UITextField *comicTitle;
+    IBOutlet UITextField *issueNumber;
+    IBOutlet UITextField *publisher;
+    IBOutlet UITextField *releaseYear;
+    id<AddViewDelegate> delegate;
     
+    IBOutlet UIButton *viewAlbumBtn;
+    IBOutlet UIButton *captureBtn;
+    IBOutlet UIImageView *imageView;
 }
 
 -(IBAction)onClick:(id)sender;
+-(void)closeKeyboard;
+
+@property (strong) id<AddViewDelegate> delegate;
 @end

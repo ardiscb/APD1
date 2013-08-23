@@ -7,11 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AddComicViewController.h"
 
-@interface DetailsViewController : UIViewController
+@interface DetailsViewController : UIViewController <AddViewDelegate, UITextViewDelegate>
 {
-    
+    IBOutlet UITextView *comicDetails;
 }
 
 -(IBAction)onClick:(id)sender;
+
 @end

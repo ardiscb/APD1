@@ -8,6 +8,7 @@
 
 #import "DetailsViewController.h"
 #import "CollectionViewController.h"
+#import "AddComicViewController.h"
 
 @interface DetailsViewController ()
 
@@ -20,20 +21,17 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
+        
     }
     return self;
 }
 
 - (void)viewDidLoad
 {
+    
+    NSLog(@"COMIC DETAILS: %@", comicDetails.text);
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 -(IBAction)onClick:(id)sender
@@ -44,5 +42,20 @@
         [self presentViewController:collectView animated:true completion:nil];
     }
 }
+
+-(void)DidSave:(NSString*)comicTitle number:(NSString*)issueNumber pub:(NSString*)publisher year:(NSString*)releaseYear
+{
+    comicDetails.text = [NSString stringWithFormat:@"Comic Title: %@\nIssueNumber: %@\nPublisher: %@\nRelease Year: %@", comicTitle, issueNumber, publisher, releaseYear];
+    NSLog(@"COMIC DETAILS: %@", comicDetails.text);
+    NSLog(@"Details comic title: %@", comicTitle);
+}
+
+- (void)didReceiveMemoryWarning
+{
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+
 
 @end

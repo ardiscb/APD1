@@ -10,6 +10,7 @@
 #import "CustomCollectionCellView.h"
 #import "DetailsViewController.h"
 #import "ViewController.h"
+#import "AddComicViewController.h"
 
 @interface CollectionViewController ()
 
@@ -55,6 +56,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+
 -(IBAction)onClick:(id)sender
 {
     ViewController *mainView = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
@@ -77,7 +79,9 @@
     {
         UIImageView *cellImage = [comicCovers objectAtIndex:indexPath.row];
         cell.collectionCellImage.image = cellImage;
-        //[comicCollectionView reloadData];
+//        CustomCollectionCellView *customCell = [[CustomCollectionCellView alloc] init];
+//        
+//        cell.collectionCellImage.image = customCell.collectionCellImage.image;
         
         NSLog(@"row=%d", indexPath.row);
         return cell;

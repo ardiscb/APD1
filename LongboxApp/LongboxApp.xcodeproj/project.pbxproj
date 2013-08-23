@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA05441717C70CD9000E0606 /* Longbox_Home.png in Resources */ = {isa = PBXBuildFile; fileRef = FA05441617C70CD9000E0606 /* Longbox_Home.png */; };
 		FA1832D317B982F800334D10 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA1832D217B982F800334D10 /* UIKit.framework */; };
 		FA1832D517B982F800334D10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA1832D417B982F800334D10 /* Foundation.framework */; };
 		FA1832D717B982F800334D10 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA1832D617B982F800334D10 /* CoreGraphics.framework */; };
@@ -37,6 +38,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA05441617C70CD9000E0606 /* Longbox_Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Longbox_Home.png; sourceTree = "<group>"; };
 		FA1832CF17B982F700334D10 /* Longbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Longbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA1832D217B982F800334D10 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FA1832D417B982F800334D10 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -119,6 +121,7 @@
 		FA1832D817B982F800334D10 /* LongboxApp */ = {
 			isa = PBXGroup;
 			children = (
+				FA05441617C70CD9000E0606 /* Longbox_Home.png */,
 				FA808FD017BD74070068504D /* detailsBkgd.jpg */,
 				FA808FD217BD7D1D0068504D /* comic1.jpg */,
 				FA808FD317BD7D1D0068504D /* comic2.jpg */,
@@ -231,6 +234,7 @@
 				FA808FDB17BD7D1D0068504D /* comic4.jpg in Resources */,
 				FA808FDC17BD7D1D0068504D /* comic5.jpg in Resources */,
 				FA808FDD17BD7D1D0068504D /* comic6.jpg in Resources */,
+				FA05441717C70CD9000E0606 /* Longbox_Home.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
